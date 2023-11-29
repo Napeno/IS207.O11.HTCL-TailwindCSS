@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img{
+    @apply h-96 mb-4;
+}
+
+.p{
+    @apply text-center text-xl font-medium mb-2;
+}
+
+.span{
+    @apply block text-center text-[#49f16b];
+}
+.span-x{
+    @apply block text-center text-gray-400;
+}
